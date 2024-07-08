@@ -4,10 +4,9 @@ import random
 class Calculadora(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Calculadora")  # Título del cuadro
-        self.resizable(False,False) #De tipo boolean, hace que no se pueda modificar el tamaño el cuadro de ancho y alto respectivamente (0,0).
-        self.iconbitmap("images/calc.ico") #Cambiar el icono del cuadro
-        self.geometry("320x450")  # Ponerle tamaño definido al cuadro
+        self.title("Calculadora")  
+        self.resizable(False,False) 
+        self.geometry("320x450")  
         self.create_widgets()
 
     def create_widgets(self):
