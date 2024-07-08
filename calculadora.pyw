@@ -1,5 +1,4 @@
 import tkinter as tk
-import random
 
 class Calculadora(tk.Tk):
     def __init__(self):
